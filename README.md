@@ -1,0 +1,1 @@
+# Manual-Testing-for-StockWise-Stock-Market-Analysis-Platform
