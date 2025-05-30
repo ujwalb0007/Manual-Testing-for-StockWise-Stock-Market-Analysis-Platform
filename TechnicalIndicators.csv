@@ -1,0 +1,4 @@
+StockSymbol,Indicator,Value,Status
+TCS,50-day SMA,3200,Valid
+HDFCBANK,RSI,65.5,Valid
+RELIANCE,50-day SMA,0,Invalid

@@ -1,0 +1,11 @@
+TestCaseID,Scenario,Precondition,TestSteps,ExpectedResult,ActualResult,Status
+TC_001,Verify user login with valid credentials,User is on login page,1. Enter username: investor1, 2. Enter password: Invest@123, 3. Click Login,User is redirected to dashboard,,Pending
+TC_002,Verify login with invalid credentials,User is on login page,1. Enter username: investor1, 2. Enter password: Wrong@123, 3. Click Login,Error message: "Invalid credentials",,Pending
+TC_003,Verify real-time stock quote for valid stock,User is logged in,1. Search for stock: RELIANCE, 2. View quote,Stock price displayed (e.g., ₹2,950.50),,Pending
+TC_004,Verify stock quote with invalid symbol,User is logged in,1. Search for stock: XYZ123, 2. View quote,Error: "Invalid stock symbol",,Pending
+TC_005,Verify portfolio creation with valid stocks,User is logged in,1. Navigate to Portfolio, 2. Add stocks: RELIANCE (100 shares), TCS (50 shares), 3. Save,Portfolio created, value displayed,,Pending
+TC_006,Verify portfolio with negative shares,User is logged in,1. Navigate to Portfolio, 2. Add stock: RELIANCE (-10 shares), 3. Save,Error: "Negative shares not allowed",,Pending
+TC_007,Verify 50-day SMA calculation,User is on stock analysis page,1. Select stock: TCS, 2. Choose 50-day SMA,Correct SMA value displayed (e.g., ₹3,200),,Pending
+TC_008,Verify RSI calculation for stock,User is on stock analysis page,1. Select stock: HDFCBANK, 2. Choose RSI,Correct RSI value displayed (e.g., 65.5),,Pending
+TC_009,Verify SEBI-compliant disclosure display,User is on stock page,1. View stock: INFY, 2. Check disclosures,SEBI-mandated risk disclosures shown,,Pending
+TC_010,Verify session timeout after 10 minutes,User is logged in,1. Stay idle for 10 minutes,User logged out automatically,,Pending

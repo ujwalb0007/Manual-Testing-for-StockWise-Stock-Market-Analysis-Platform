@@ -1,0 +1,16 @@
+StockWise API Endpoints for Testing
+
+1. Stock Quote
+   - Endpoint: GET /api/stock/quote
+   - Sample Request: {"symbol": "RELIANCE"}
+   - Expected Response: {"symbol": "RELIANCE", "price": 2950.50, "exchange": "NSE"}
+
+2. Portfolio Creation
+   - Endpoint: POST /api/portfolio/create
+   - Sample Request: {"user": "investor1", "stocks": [{"symbol": "RELIANCE", "shares": 100}]}
+   - Expected Response: {"status": "created", "portfolio_id": "PORT_001"}
+
+3. Technical Indicator
+   - Endpoint: GET /api/stock/indicator
+   - Sample Request: {"symbol": "TCS", "indicator": "50-day SMA"}
+   - Expected Response: {"symbol": "TCS", "indicator": "50-day SMA", "value": 3200}

@@ -1,0 +1,20 @@
+StockWise Manual Testing Setup Guide
+
+1. Environment Setup:
+   - Platform: StockWise (use demo stock market platform like moneycontrol.com or local emulator).
+   - Tools: Chrome browser, Postman for API testing.
+   - Prerequisites: Stable internet, Postman installed.
+
+2. Test Environment:
+   - URL: https://sandbox.moneycontrol.com (or local emulator).
+   - Browser: Chrome v120+, Firefox v115+.
+   - Device: Desktop or mobile browser.
+
+3. Configuration:
+   - Ensure SEBI compliance (e.g., data privacy, investor disclosures).
+   - Set up API keys in Postman for endpoints in API_Endpoints.txt.
+   - Use TestData/ for input data.
+
+4. Execution:
+   - Open TestCases_StockWise.xlsx and follow test steps.
+   - Log results in DefectLog.xlsx and save screenshots in Screenshots/.

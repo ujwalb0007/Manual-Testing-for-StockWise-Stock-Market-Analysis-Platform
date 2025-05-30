@@ -1,0 +1,3 @@
+BugID,Description,Severity,Status
+BUG_001,Stock quote API fails for invalid symbol,High,Open
+BUG_002,Portfolio allows negative shares,Medium,Open

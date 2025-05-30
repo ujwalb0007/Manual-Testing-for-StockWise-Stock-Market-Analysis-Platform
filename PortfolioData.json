@@ -1,0 +1,20 @@
+[
+  {
+    "PortfolioID": "PORT_001",
+    "User": "investor1",
+    "Stocks": [
+      {"Symbol": "RELIANCE", "Shares": 100, "Price": 2950.50},
+      {"Symbol": "TCS", "Shares": 50, "Price": 3200.75}
+    ],
+    "TotalValue": 455575
+  },
+  {
+    "PortfolioID": "PORT_002",
+    "User": "investor2",
+    "Stocks": [
+      {"Symbol": "RELIANCE", "Shares": -10, "Price": 2950.50}
+    ],
+    "TotalValue": 0,
+    "Status": "Invalid"
+  }
+]

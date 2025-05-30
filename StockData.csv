@@ -1,0 +1,4 @@
+StockSymbol,CompanyName,Price,Exchange
+RELIANCE,Reliance Industries,2950.50,NSE
+TCS,Tata Consultancy Services,3200.75,NSE
+XYZ123,Invalid Stock,0,Unknown
